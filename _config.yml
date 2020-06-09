@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -279,9 +279,6 @@ defaults:
       comments: true
       share: true
       related: true
-    header:
-      image: /assets/images/unsplash-image-1.jpg
-      image_description: "A description of the image"
     # _pages
   - scope:
       path: "_pages"
