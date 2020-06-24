@@ -388,4 +388,10 @@ var store = [{
         "tags": ["video","layout"],
         "url": "http://localhost:4000/layout/uncategorized/layout-header-video/",
         "teaser": "http://localhost:4000/assets/images/500x300.png"
+      },{
+        "title": "강화학습1 : Policy Gradient - REINFORCE와 Actor-Critic 구현하기",
+        "excerpt":"Step 1: 강화학습1   Remove _includes, _layouts, _sass, assets folders and files within. You won’t need these anymore as they’re bundled in the theme.   If you customized any of these then leave them alone and only remove the untouched ones. If setup correctly your modified versions should act as overrides to the versions bundled with the theme.   gem \"jekyll\", :git =&gt; \"https://github.com/jekyll/jekyll.git\"  ","categories": ["ReinforcementLearning"],
+        "tags": ["update"],
+        "url": "http://localhost:4000/reinforcementlearning/ASD/",
+        "teaser": "http://localhost:4000/assets/images/500x300.png"
       }]

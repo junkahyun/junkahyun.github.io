@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Edge Case: Post with multiline excerpt - 광까의 개발 블로그</title>
-<meta name="description" content="Et ex ullamco duis don’t combine these words quis laborum sunt sint. Nisi et Lorem reprehenderit cupidatat. Aliqua fugiat aliquip officia culpa elit. Adipisicing do eu duis aute et aute amet anim ut cillum aliqua. Aliqua adipisicing occaecat et ullamco fugiat.">
+<!-- begin _includes/seo.html --><title>강화학습1 : Policy Gradient - REINFORCE와 Actor-Critic 구현하기 - 광까의 개발 블로그</title>
+<meta name="description" content="Step 1: 강화학습1">
 
 
   <meta name="author" content="junkahyun">
@@ -19,21 +19,23 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:site_name" content="광까의 개발 블로그">
-<meta property="og:title" content="Edge Case: Post with multiline excerpt">
-<meta property="og:url" content="http://localhost:4000/edge-case-multiline-excerpt/">
+<meta property="og:title" content="강화학습1 : Policy Gradient - REINFORCE와 Actor-Critic 구현하기">
+<meta property="og:url" content="http://localhost:4000/reinforcementlearning/ASD/">
 
 
-  <meta property="og:description" content="Et ex ullamco duis don’t combine these words quis laborum sunt sint. Nisi et Lorem reprehenderit cupidatat. Aliqua fugiat aliquip officia culpa elit. Adipisicing do eu duis aute et aute amet anim ut cillum aliqua. Aliqua adipisicing occaecat et ullamco fugiat.">
-
-
-
+  <meta property="og:description" content="Step 1: 강화학습1">
 
 
 
 
-  <meta property="article:published_time" content="2009-10-05T00:00:00+09:00">
 
 
+
+  <meta property="article:published_time" content="2020-06-15T00:00:00+09:00">
+
+
+
+  <meta property="article:modified_time" content="2020-06-16T01:00:00+09:00">
 
 
 
@@ -42,7 +44,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/edge-case-multiline-excerpt/">
+<link rel="canonical" href="http://localhost:4000/reinforcementlearning/ASD/">
 
 
 
@@ -279,15 +281,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Edge Case: Post with multiline excerpt">
-    <meta itemprop="description" content="Et ex ullamco duis don’tcombine these words quis laborum sunt sint. Nisi et Lorem reprehenderit cupidatat. Aliqua fugiat aliquip officia culpa elit. Adipisicing do eu duis aute et aute amet anim ut cillum aliqua. Aliqua adipisicing occaecat et ullamco fugiat.">
-    <meta itemprop="datePublished" content="2009-10-05T00:00:00+09:00">
-    
+    <meta itemprop="headline" content="강화학습1 : Policy Gradient - REINFORCE와 Actor-Critic 구현하기">
+    <meta itemprop="description" content="Step 1: 강화학습1">
+    <meta itemprop="datePublished" content="2020-06-15T00:00:00+09:00">
+    <meta itemprop="dateModified" content="2020-06-16T01:00:00+09:00">
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Edge Case: Post with multiline excerpt
+          <h1 id="page-title" class="page__title" itemprop="headline">강화학습1 : Policy Gradient - REINFORCE와 Actor-Critic 구현하기
 </h1>
           
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
@@ -304,8 +306,24 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>Et ex ullamco duis don’t
-combine these words quis laborum sunt sint. Nisi et Lorem reprehenderit cupidatat. Aliqua fugiat aliquip officia culpa elit. Adipisicing do eu duis aute et aute amet anim ut cillum aliqua. Aliqua adipisicing occaecat et ullamco fugiat.</p>
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> 강화학습1</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#step-1-강화학습1">Step 1: 강화학습1</a></li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="step-1-강화학습1">Step 1: 강화학습1</h2>
+
+<p>Remove <code class="language-plaintext highlighter-rouge">_includes</code>, <code class="language-plaintext highlighter-rouge">_layouts</code>, <code class="language-plaintext highlighter-rouge">_sass</code>, <code class="language-plaintext highlighter-rouge">assets</code> folders and files within. You won’t need these anymore as they’re bundled in the theme.</p>
+
+<p>If you customized any of these then leave them alone and only remove the untouched ones. If setup correctly your modified versions should act as <a href="http://jekyllrb.com/docs/themes/#overriding-theme-defaults">overrides</a> to the versions bundled with the theme.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s2">"jekyll"</span><span class="p">,</span> <span class="ss">:git</span> <span class="o">=&gt;</span> <span class="s2">"https://github.com/jekyll/jekyll.git"</span>
+</code></pre></div></div>
 
         
       </section>
@@ -313,10 +331,48 @@ combine these words quis laborum sunt sint. Nisi et Lorem reprehenderit cupidata
       <footer class="page__meta">
         
         
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> 태그: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#update" class="page__taxonomy-item" rel="tag">update</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 카테고리: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#reinforcementlearning" class="page__taxonomy-item" rel="tag">ReinforcementLearning</a>
+    
+    </span>
+  </p>
 
 
         
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time datetime="2009-10-05T00:00:00+09:00">October 5, 2009</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time datetime="2020-06-15">June 15, 2020</time></p>
 
 
       </footer>
@@ -326,23 +382,22 @@ combine these words quis laborum sunt sint. Nisi et Lorem reprehenderit cupidata
     <h4 class="page__share-title">공유하기</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=Edge+Case%3A+Post+with+multiline+excerpt%20http%3A%2F%2Flocalhost%3A4000%2Fedge-case-multiline-excerpt%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=%EA%B0%95%ED%99%94%ED%95%99%EC%8A%B51+%3A+Policy+Gradient+-+REINFORCE%EC%99%80+Actor-Critic+%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0%20http%3A%2F%2Flocalhost%3A4000%2Freinforcementlearning%2FASD%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fedge-case-multiline-excerpt%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Freinforcementlearning%2FASD%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fedge-case-multiline-excerpt%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Freinforcementlearning%2FASD%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/edge%20case/edge-case-no-yaml-title/" class="pagination--pager" title="Edge Case No Yaml Title
+      <a href="/jekyll/post-exclude-search/" class="pagination--pager" title="Exclude Post from Search Index
 ">이전</a>
     
     
-      <a href="/edge%20case/edge-case-title-should-not-overflow-the-content-area/" class="pagination--pager" title="Antidisestablishmentarianism
-">다음</a>
+      <a href="#" class="pagination--pager disabled">다음</a>
     
   </nav>
 
@@ -356,40 +411,6 @@ combine these words quis laborum sunt sint. Nisi et Lorem reprehenderit cupidata
     <div class="page__related">
       <h4 class="page__related-title">참고</h4>
       <div class="grid__wrapper">
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src="/assets/images/500x300.png" alt="">
-      </div>
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/reinforcementlearning/ASD/" rel="permalink">강화학습1 : Policy Gradient - REINFORCE와 Actor-Critic 구현하기
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  최대 1 분 소요
-
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">Step 1: 강화학습1
-
-</p>
-  </article>
-</div>
-
         
           
 
@@ -489,6 +510,38 @@ combine these words quis laborum sunt sint. Nisi et Lorem reprehenderit cupidata
     <p class="archive__item-excerpt" itemprop="description">Hot on the heels of Jekyll v3.3.0 is a beta release of Minimal Mistakes… as a gemified theme.
 
 </p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/500x300.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/jekyll/gemified-theme-alpha/" rel="permalink">Gemified Theme – Alpha Release
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 분 소요
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Jekyll themes distributed as Ruby gems are finally here to make installing and upgrading much easier. Gone are the days of forking a repo just to “install it...</p>
   </article>
 </div>
 
