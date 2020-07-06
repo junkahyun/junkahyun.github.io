@@ -1,18 +1,18 @@
 ---
-title: "Layout: Sidebar with Navigation List"
+title: "Layout: Sidebar with Navigation List2"
 excerpt: "A post with a sidebar navigation list."
 author_profile: false
 sidebar:
-  title: "Sample Title"
-  nav: sidebar-sample-1
+  title: "Sample Title2"
+  nav: sidebar-sample-2
 ---
 
 This post has a custom navigation list set in the post's YAML Front Matter.
 
 ```yaml
 sidebar:
-  title: "Sample Title"
-  nav: sidebar-sample-1
+  title: "Sample Title2"
+  nav: sidebar-sample-2
 ```
 
 Along with navigation elements set in `_data/navigation.yml`.

@@ -97,11 +97,11 @@ author:
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "광까의 개발 블로그 입니다."
   location         : "Repulic of Korea"
-  email            : 
+  email            : "bissrkgus3575@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "bissrkgus3575@gmail.com"
+      url: 
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
