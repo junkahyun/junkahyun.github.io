@@ -1,5 +1,5 @@
 ---
-title: "Layout: Sidebar with Navigation List"
+title: "게시글 좌측 사이드 테스트1"
 excerpt: "A post with a sidebar navigation list."
 author_profile: false
 sidebar:
