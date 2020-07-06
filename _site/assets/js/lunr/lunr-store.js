@@ -23,8 +23,8 @@ var store = [{
         "url": "http://localhost:4000/markup/markup-html-tags-and-formatting/",
         "teaser": "http://localhost:4000/assets/images/markup-syntax-highlighting-teaser.jpg"
       },{
-        "title": "블로그 시작!",
-        "excerpt":"   안녕하세요. 풀스택 웹 개발자 광까입니다. 이제부터 꾸준히 개발 블로그를 시작하려고 합니다. 처음 하는 블로그라…. 부족한 점이 많을 것 같습니다..ㅎ 공부하는 내용들은 바로바로 게시글로 올리도록 하겠습니다. 잘 부탁 드립니다!!    ","categories": [],
+        "title": "블로그 시작!😆",
+        "excerpt":"   안녕하세요. 풀스택 웹 개발자 광까입니다.😎    이제부터 꾸준히 개발 블로그를 시작하려고 합니다. 처음 하는 블로그라….부족한 점이 많을 것 같습니다..😂      앞으로의 공부 방향성    공부는 패스트 캠퍼스에 결제해놓은 강의들을 먼저 수강해서 정리하고 그외에는 하고싶은 것들을 정리해서 올려놓을 예정입니다.    (ps. 그외 ex)포트폴리오, 개인프로젝트 등등도 업로드 할 수 있음!)    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/my-plan/",
         "teaser": "http://localhost:4000/assets/images/no-image.jpg"

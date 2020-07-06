@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-06T22:08:51+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">광까의 개발 블로그</title><subtitle>광까의 개발 블로그 입니다.</subtitle><author><name>junkahyun</name><email>bissrkgus3575@gmail.com</email></author><entry><title type="html">Node.js와 npm설치 방법</title><link href="http://localhost:4000/nodejs/node-js-1/" rel="alternate" type="text/html" title="Node.js와 npm설치 방법" /><published>2020-07-06T00:00:00+09:00</published><updated>2020-07-06T00:00:00+09:00</updated><id>http://localhost:4000/nodejs/node-js-1</id><content type="html" xml:base="http://localhost:4000/nodejs/node-js-1/">&lt;p&gt;오늘은 Node.js와 npm설치 방법에 대해서 이야기 해보려고 합니다.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-07T01:35:45+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">광까의 개발 블로그</title><subtitle>광까의 개발 블로그 입니다.</subtitle><author><name>junkahyun</name><email>bissrkgus3575@gmail.com</email></author><entry><title type="html">Node.js와 npm설치 방법</title><link href="http://localhost:4000/nodejs/node-js-1/" rel="alternate" type="text/html" title="Node.js와 npm설치 방법" /><published>2020-07-06T00:00:00+09:00</published><updated>2020-07-06T00:00:00+09:00</updated><id>http://localhost:4000/nodejs/node-js-1</id><content type="html" xml:base="http://localhost:4000/nodejs/node-js-1/">&lt;p&gt;오늘은 Node.js와 npm설치 방법에 대해서 이야기 해보려고 합니다.
 기본적으로 npm설치시에 Node.js도 동시에 설치가 가능합니다.&lt;/p&gt;
 
 &lt;h2 id=&quot;npm설치&quot;&gt;npm설치&lt;/h2&gt;
 &lt;p&gt;구글에 npm을 검색하시면 다운로드 받을수 있는 링크가 나옵니다.
-그럼 그 링크를 클릭하고 들어갑니다.&lt;/p&gt;</content><author><name>junkahyun</name><email>bissrkgus3575@gmail.com</email></author><category term="javascript" /><category term="NodeJs" /><summary type="html">오늘은 Node.js와 npm설치 방법에 대해서 이야기 해보려고 합니다. 기본적으로 npm설치시에 Node.js도 동시에 설치가 가능합니다.</summary></entry><entry><title type="html">블로그 시작!</title><link href="http://localhost:4000/my-plan/" rel="alternate" type="text/html" title="블로그 시작!" /><published>2020-07-06T00:00:00+09:00</published><updated>2020-07-06T00:00:00+09:00</updated><id>http://localhost:4000/my-plan</id><content type="html" xml:base="http://localhost:4000/my-plan/">&lt;hr /&gt;
+그럼 그 링크를 클릭하고 들어갑니다.&lt;/p&gt;</content><author><name>junkahyun</name><email>bissrkgus3575@gmail.com</email></author><category term="javascript" /><category term="NodeJs" /><summary type="html">오늘은 Node.js와 npm설치 방법에 대해서 이야기 해보려고 합니다. 기본적으로 npm설치시에 Node.js도 동시에 설치가 가능합니다.</summary></entry><entry><title type="html">블로그 시작!😆</title><link href="http://localhost:4000/my-plan/" rel="alternate" type="text/html" title="블로그 시작!😆" /><published>2020-07-06T00:00:00+09:00</published><updated>2020-07-06T00:00:00+09:00</updated><id>http://localhost:4000/my-plan</id><content type="html" xml:base="http://localhost:4000/my-plan/">&lt;hr /&gt;
 
 &lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;
-안녕하세요. 풀스택 웹 개발자 광까입니다.
+안녕하세요. 풀스택 웹 개발자 광까입니다.😎
+&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size: 14pt;&quot;&gt;
 이제부터 꾸준히 개발 블로그를 시작하려고 합니다.
-처음 하는 블로그라…. 부족한 점이 많을 것 같습니다..ㅎ
-공부하는 내용들은 바로바로 게시글로 올리도록 하겠습니다.
-잘 부탁 드립니다!!
+처음 하는 블로그라….부족한 점이 많을 것 같습니다..😂
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;앞으로의-공부-방향성&quot;&gt;앞으로의 공부 방향성&lt;/h2&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;
+공부는 패스트 캠퍼스에 결제해놓은 강의들을 먼저 수강해서 정리하고
+그외에는 하고싶은 것들을 정리해서 올려놓을 예정입니다.
+&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size: 12pt;&quot;&gt;
+&lt;strong&gt;(ps. 그외 ex)포트폴리오, 개인프로젝트 등등도 업로드 할 수 있음!)&lt;/strong&gt;
 &lt;/span&gt;&lt;/p&gt;</content><author><name>junkahyun</name><email>bissrkgus3575@gmail.com</email></author><summary type="html"></summary></entry><entry><title type="html">블로그 게시글 예시</title><link href="http://localhost:4000/markup/markup-html-tags-and-formatting/" rel="alternate" type="text/html" title="블로그 게시글 예시" /><published>2013-01-11T00:00:00+09:00</published><updated>2013-01-11T00:00:00+09:00</updated><id>http://localhost:4000/markup/markup-html-tags-and-formatting</id><content type="html" xml:base="http://localhost:4000/markup/markup-html-tags-and-formatting/">&lt;p&gt;A variety of common markup showing how the theme styles them.&lt;/p&gt;
 
 &lt;h2 id=&quot;header-two&quot;&gt;Header two&lt;/h2&gt;

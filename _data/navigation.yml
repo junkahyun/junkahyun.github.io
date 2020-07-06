@@ -9,6 +9,7 @@ main:
    - title: "년도별"
      url: /year-archive/
 
+#nodejs posting sidebar
 sidebar-node-js:
   - title: "Step1"
     children:
