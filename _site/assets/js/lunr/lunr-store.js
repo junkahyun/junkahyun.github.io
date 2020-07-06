@@ -28,4 +28,10 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/my-plan/",
         "teaser": "http://localhost:4000/assets/images/no-image.jpg"
+      },{
+        "title": "Node.js와 npm설치 방법",
+        "excerpt":"오늘은 Node.js와 npm설치 방법에 대해서 이야기 해보려고 합니다. 기본적으로 npm설치시에 Node.js도 동시에 설치가 가능합니다.   npm설치  구글에 npm을 검색하시면 다운로드 받을수 있는 링크가 나옵니다. 그럼 그 링크를 클릭하고 들어갑니다.  ","categories": ["NodeJs"],
+        "tags": ["javascript","NodeJs"],
+        "url": "http://localhost:4000/nodejs/node-js-1/",
+        "teaser": "http://localhost:4000/assets/images/no-image.jpg"
       }]

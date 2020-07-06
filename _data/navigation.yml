@@ -8,7 +8,13 @@ main:
      url: /tags/
    - title: "년도별"
      url: /year-archive/
-  
+
+sidebar-node-js:
+  - title: "Step1"
+    children:
+      - title: "Node.js와 npm설치 방법"
+        url: http://localhost:4000/nodejs/node-js-1/
+     
 sidebar-sample-1:
   - title: "Parent Page A"
     children:
